@@ -8,3 +8,4 @@ Un défi important à gérer était de savoir faire marcher les deux classes ens
 Une autre difficulté rencontrée était avec le module <termios> pour pouvoir utiliser la fonction getchar() en mode sans buffer, que ce soit pour les deplacement dans la map, ou encore pour skip des messages d'information en un seul clic (et du coup sans passer par std::cin>>;)
 Je regrette avoir perdu beaucoup de temps sur une piste de jeu que j'ai dû abandonner car elle ne me satisfaisait pas beaucoup, je pense qu'avec plus de temps sur ce jeu là je pourrait l'améliorer considérablement (ou même faire un truc style "Minecraft")
 Bon jeu!
+PS: j'ai aussi rencontré un warning récurrent "warning: ... is a C++11 extension [-Wc++11-extensions]" nottament avec la méthode "override" pour l'héritage. Je le résoud en utilisant : "g++ -std=c++11 main.cpp".
